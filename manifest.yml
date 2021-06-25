@@ -1,6 +1,0 @@
----
-applications:
-- name: project--10641
-  memory: 256M
-  host: project--10641
-  domain: mybluemix.net

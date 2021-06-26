@@ -2,15 +2,15 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const hbs = require("hbs");
-require("E:/Auto Backup of C Drive/Desktop/project/src/models/db/conn");
+require("conn");
 
-const Register = require("./models/registers");
+const Register = require("registers");
 
 const port = process.env.PORT || 3000;
 
-const static_path = path.join(__dirname, "../public");
-const templates_path = path.join(__dirname, "../templates/views");
-const partials_path = path.join(__dirname, "../templates/partials");
+const static_path = path.join(__dirname, "public");
+const templates_path = path.join(__dirname, "views");
+const partials_path = path.join(__dirname, "partials");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

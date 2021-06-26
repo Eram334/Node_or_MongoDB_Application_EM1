@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: myfont;
-    src: url("../webfonts/VLADIMIR.TTF");
+    src: url("VLADIMIR.TTF");
 }
 .a2{ 
     font-family: myfont;
